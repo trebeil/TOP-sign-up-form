@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Odin Sign-up</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <section>
+    <div class="odin">
+      <img src="media/odin-lined.png" alt="The Odin Project's logo in white lines and transparent background">
+      <span class="logo">Odin</span>
+    </div>
+    <div class="license">
+      Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </div>
+  </section>
+  <main>
+    <div class="text">
+      <div>
+        <p>
+          This is not a real online service! You know you need something like this in
+          your life to help realize your deepest dreams. Sign up <em>now</em> to get started.
+        </p>
+      </div>
+      <div>
+        You <em>know</em> you want to.
+      </div>
+    </div>
+    <div class="form">
+      <div>Let's do this!</div>
+      <form action="" method="post" id="form">
+        <div class="formblock">
+          <div class="formfield">
+            <label for="fname">FIRST NAME</label>
+            <input type="text" name="first_name" id="fname">
+          </div>
+          <div class="formfield">
+            <label for="lname">LAST NAME</label>
+            <input type="text" name="last_name" id="lname">
+          </div>
+        </div>
+        <div class="formblock">
+          <div class="formfield">
+            <label for="email">*EMAIL</label>
+            <input type="email" name="email" id="email" required>
+          </div>
+          <div class="formfield">
+            <label for="tel">PHONE NUMBER</label>
+            <input type="tel" name="tel" id="tel">
+          </div>
+        </div>
+        <div class="formblock error">
+          <div class="formfield">
+            <label for="pw">*PASSWORD</label>
+            <input type="password" name="pw" id="pw">
+          </div>
+          <div class="formfield">
+            <label for="confirm_pw">*CONFIRM PASSWORD</label>
+            <input type="password" name="confirm_pw" id="confirm_pw">
+          </div>
+        </div>
+      </form>
+    </div>
+    <div><button form="form">Create Account</button></div>
+    <div>Already have an account? <a href="" class="login_link">Log in</a></div>
+  </main>
+</body>
+</html>
